@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 
 
 # Consultando dados Fifa 21
-fonte = "C://Users//martins//Documents//Dataframes//Fifa 21//fifa21.csv"
+fonte = "C://Fifa 21//fifa21.csv"
 
 # Leitura do arquivo e criando DataFrame
 df = pd.read_csv(fonte, sep=';')

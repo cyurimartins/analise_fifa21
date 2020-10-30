@@ -1,0 +1,22 @@
+Para simplificar, vamos analisar uma equipa da Premier League sem suplentes, à semelhança do que normalmente acontece com os Squad Building Challenges. Sugerimos que use este guia ou as equipas conceito sempre que testar ratings de equipas.
+
+Considere a equipa da imagem de cima. Os ratings dos jogadores do onze principal são: 83, 82, 81, 80, 75, 82, 80, 76, 77, 78 and 78.
+
+PASSO 1 – SOMA DOS RATINGS
+Este passo é extremamente fácil. Some todos os ratings e irá obter 872.
+
+PASSO 2 – CÁLCULO DA MÉDIA
+Divida por 11 e obterá 79,27, sem arredondamentos.
+
+PASSO 3 – CÁLCULO DE CF
+O fator de correção é igual à diferença entre o rating de cada jogador e a média obtida no passo 1, divididos por 11. Quando o rating de um jogador é igual ou inferior à média da equipa, como acontece com o Sissoko, assume-se que a diferença entre ambos é zero. Ou seja:
+CF = ((83-79.27)+(82-79.27)+(81-79.27)+(80-79.27)+(82-79.27)+(80-79.27)) = 12,36.
+
+PASSO 4 – SOMA DE CF COM RT
+Se somar os valores obtidos nos passos 1 e 3, obterá: 872 + 12,36 = 884,36,
+
+PASSO 5 – ARREDONDAR E DIVIDIR
+Divida 884 por 11: 884 / 11 = 80,36
+
+PASSO 6 – ARREDONDAMENTO FINAL
+O rating final é 80, valor que obtém após arredondar por defeito o obtido noratingspasso anterior.
